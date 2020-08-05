@@ -1,11 +1,23 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-#content{
+#content {
     margin-top: 50px;
 }
 
-.collection .extra{
+.collection .extra {
     padding: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .nav-wrapper a {
+        width: max-content;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .nav-wrapper a {
+        width: max-content;
+    }
 }
