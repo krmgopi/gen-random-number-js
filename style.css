@@ -10,6 +10,10 @@
     padding: 20px;
 }
 
+.social a {
+    margin: 0 30px 0 20px;
+}
+
 @media only screen and (max-width: 600px) {
     .nav-wrapper a {
         width: max-content;
